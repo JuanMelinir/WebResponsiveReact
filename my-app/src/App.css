@@ -1,3 +1,9 @@
+/*Fonts*/
+@import url('https://fonts.googleapis.com/css2?family=New+Rocker&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rock+Salt&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Shizuru&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Shizuru&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Staatliches&display=swap');
 .App {
   text-align: center;
 }
@@ -36,3 +42,24 @@
     transform: rotate(360deg);
   }
 }
+/*Navbar*/
+.imageLogo{
+  margin-left: 50px; 
+}
+.collapse{
+display:flex;
+justify-content: center;
+align-items: center;
+align-content: center;  
+}
+.nav-item{
+margin-left: 25px;
+margin-right: 25px;
+}
+.textNavbar{
+  color:black;
+  font-size: larger;
+  text-decoration: none;
+  font-family: 'Staatliches', cursive;
+}
+/*-----*/

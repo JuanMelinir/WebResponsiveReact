@@ -1,8 +1,11 @@
-import logo from './logo.svg';
 import './App.css';
+import  'bootstrap/dist/css/bootstrap.min.css' ;
+import NavBar from './components/NavBar';
 
-function App() {
+function App(){
   return (
+    <NavBar/>
+    /*
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
@@ -18,7 +21,7 @@ function App() {
           Learn React
         </a>
       </header>
-    </div>
+    </div>*/
   );
 }
 
